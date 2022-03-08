@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/viewBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_view" />
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/search_rounded"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:hint="@string/cari_layanan_makanan_amp_tujuan"
+        android:inputType="text"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/accountIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/searchView"
+        android:background="@drawable/account_icon"/>
+
+    <View
+        android:id="@+id/cashInfo"
+        android:layout_width="385dp"
+        android:layout_height="95dp"
+        android:layout_below="@id/viewBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/cash_rounded"/>
+
+    <View
+        android:layout_width="140dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/cash_view" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/ic_gopay_logo"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="111dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/rp109_048"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="129dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/klik_amp_cek_riwayat"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/top_stack" />
+
+
+</RelativeLayout>
