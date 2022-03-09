@@ -88,6 +88,11 @@
         android:layout_marginStart="49dp"
         android:layout_marginTop="75dp"
         android:background="@drawable/top_stack" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="NUELL DISINII BARU"
+        ></TextView>
 
 
 </RelativeLayout>
