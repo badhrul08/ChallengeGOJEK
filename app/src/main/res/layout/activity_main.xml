@@ -94,5 +94,12 @@
         android:text="NUELL DISINII BARU"
         ></TextView>
 
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="NUELL DISINII BARU"
+        ></TextView>
+
+
 
 </RelativeLayout>
