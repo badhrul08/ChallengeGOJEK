@@ -14,4 +14,6 @@
     <color name="soft_green">#E0FBD2</color>
     <color name="soft_red">#FFE1DF</color>
     <color name="soft_blue">#D8F1FD</color>
+    <color name="soft_orange">#F18149</color>
+    <color name="very_soft_grange">#FAEDE4</color>
 </resources>
