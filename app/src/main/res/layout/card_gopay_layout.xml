@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cash_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/card_gopay_background"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </View>
+
+    <TextView
+        android:id="@+id/gopay_text_view"
+        android:layout_width="55dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_gopay_logo"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+
+    <TextView
+        android:id="@+id/money_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gopay_text_view"
+        android:layout_marginStart="8dp"
+        android:text="Rp109.048"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/gopay_text_view" />
+
+    <TextView
+        android:id="@+id/history_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/money_text_view"
+        android:layout_marginStart="8dp"
+        android:text="Klik &amp; cek riwayat"
+        android:textColor="@color/green"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/money_text_view" />
+
+    <ImageView
+        android:id="@+id/bayar_image_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/top_up_pay_explore_background"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/pay"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/top_up_imageView_table"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/top_up_pay_explore_background"
+        android:backgroundTint="@color/white"
+        android:contentDescription="Avatar"
+        android:src="@drawable/top_up"
+        app:layout_constraintStart_toEndOf="@+id/bayar_image_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/explore_image_view_table"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/top_up_pay_explore_background"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/explore"
+        app:layout_constraintStart_toEndOf="@+id/top_up_imageView_table"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bayar_text_view_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:text="Bayar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/bayar_image_view" />
+
+    <TextView
+        android:id="@+id/top_up_text_view_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Isi Saldo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bayar_text_view_table"
+        app:layout_constraintTop_toBottomOf="@+id/top_up_imageView_table" />
+
+    <TextView
+        android:id="@+id/explore_text_view_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Eksplor"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/top_up_text_view_table"
+        app:layout_constraintTop_toBottomOf="@+id/explore_image_view_table" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
