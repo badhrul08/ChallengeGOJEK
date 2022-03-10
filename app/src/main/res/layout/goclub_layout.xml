@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/view4"
+        android:layout_width="360dp"
+        android:layout_height="72dp"
+        android:background="@drawable/goclub_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <ImageView
+        android:id="@+id/goclub_image_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:src="@drawable/goclub_nobg_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/xp_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/goclub_image_view"
+        android:text="39 XP lagi ada Harta Karun"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/goclub_image_view"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="230dp"
+        android:layout_height="5dp"
+        android:layout_below="@+id/xp_text_view"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/goclub_image_view"
+        android:background="@drawable/custom_progressbar"
+        android:progressDrawable="@drawable/custom_progressbar"
+        app:layout_constraintStart_toEndOf="@+id/goclub_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/xp_text_view"></ProgressBar>
+
+    <ImageView
+        android:id="@+id/sand_clock_icon_image_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/progressBar1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/goclub_image_view"
+        android:background="@drawable/sand_clock_icon"
+        app:layout_constraintStart_toEndOf="@+id/goclub_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar1"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/sand_clock_icon_image_view"
+        android:text="Harta Karun bentar lagi hilang"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/sand_clock_icon_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar1"></TextView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@id/xp_text_view"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintStart_toEndOf="@+id/progressBar1"
+        app:layout_constraintTop_toTopOf="@+id/view4"></ImageView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
