@@ -22,7 +22,7 @@
         android:layout_width="360dp"
         android:layout_height="43dp"
         android:background="@drawable/akses_cepat_voucher_bg"
-        android:backgroundTint="@color/gray"
+        android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
     <ImageView
@@ -61,7 +61,7 @@
         android:layout_width="360dp"
         android:layout_height="43dp"
         android:background="@drawable/akses_cepat_resto_bg"
-        android:backgroundTint="@color/gray"
+        android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view3" />
 

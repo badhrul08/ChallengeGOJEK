@@ -6,6 +6,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/ChallengeGOJEK/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/akses_cepat_bg.xml" value="0.1925" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/akses_cepat_resto_bg.xml" value="0.1925" />
+        <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/akses_cepat_voucher_bg.xml" value="0.214" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/all_promo_bg.xml" value="0.219" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/border_tabel.xml" value="0.157" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/card_gopay_background.xml" value="0.133" />
@@ -17,10 +18,10 @@
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/search_rounded.xml" value="0.161" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/top_up_pay_explore_background.xml" value="0.133" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/drawable/valuecellborder.xml" value="0.157" />
-        <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/activity_layout_gojek.xml" value="0.2" />
+        <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/activity_layout_gojek.xml" value="0.4" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/activity_main2.xml" value="0.2" />
-        <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/bottom_nav_layout.xml" value="0.8" />
+        <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/bottom_nav_layout.xml" value="0.6" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/card_gopay_layout.xml" value="0.6" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/fitur_gojek_layout.xml" value="0.536" />
         <entry key="..\:/Users/User/Documents/GitHub/ChallengeGOJEK/app/src/main/res/layout/goclub_layout.xml" value="0.264" />
