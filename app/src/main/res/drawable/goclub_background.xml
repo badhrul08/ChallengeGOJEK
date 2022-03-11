@@ -10,10 +10,9 @@
         />
     <gradient
         android:startColor="@color/very_soft_grange"
-        android:centerColor="@color/white"
+
         android:endColor="@color/white"
-        android:centerX="2"
-        android:centerY="2"
+
         >
     </gradient>
 

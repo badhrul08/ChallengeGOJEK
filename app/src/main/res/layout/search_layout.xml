@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
         <View
-            android:id="@+id/viewBar"
+            android:id="@+id/search_viewBar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@drawable/rounded_view"
@@ -30,7 +30,7 @@
             android:textColorHint="@color/teks_hint"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/viewBar"
+            app:layout_constraintTop_toTopOf="@+id/search_viewBar"
             tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"></EditText>
 
         <ImageView
@@ -41,5 +41,5 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/account_icon"
             app:layout_constraintStart_toEndOf="@+id/searchView"
-            app:layout_constraintTop_toTopOf="@+id/viewBar" />
+            app:layout_constraintTop_toTopOf="@+id/search_viewBar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

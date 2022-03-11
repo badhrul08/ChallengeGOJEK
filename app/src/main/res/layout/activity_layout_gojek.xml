@@ -6,12 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LayoutGojek">
+
     <include
         android:id="@+id/include"
         layout="@layout/search_layout"
         android:layout_width="wrap_content"
         android:layout_height="61dp"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true" />
+
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="wrap_content"
@@ -35,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp" />
+
             <include
                 android:id="@+id/include4"
                 layout="@layout/goclub_layout"
@@ -42,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp" />
+
             <include
                 android:id="@+id/include6"
                 layout="@layout/voucher_layout"
@@ -68,9 +73,7 @@
         android:layout_below="@+id/scrollView2"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-
         app:layout_constraintVertical_bias="1.0" />
-
 </RelativeLayout>
 
 

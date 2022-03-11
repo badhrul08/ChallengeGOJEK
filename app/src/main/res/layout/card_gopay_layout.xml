@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/gopay_card_view"
         android:layout_width="360dp"
         android:layout_height="100dp"
         android:background="@drawable/cash_rounded"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"></View>
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/gopay_view"
         android:layout_width="160dp"
         android:layout_height="75dp"
         android:layout_marginStart="36dp"
@@ -35,11 +35,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/ic_gopay_logo"
-
         android:textColor="@color/black"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
+        app:layout_constraintStart_toStartOf="@+id/gopay_view"
+        app:layout_constraintTop_toTopOf="@+id/gopay_view" />
 
 
     <TextView
@@ -48,11 +47,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/gopay_text_view"
         android:layout_marginStart="8dp"
-        android:text="Rp109.048"
+        android:text="@string/rp109_048"
         android:textColor="@color/black"
         android:textSize="13dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/gopay_view"
         app:layout_constraintTop_toBottomOf="@+id/gopay_text_view" />
 
     <TextView
@@ -61,11 +60,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/money_text_view"
         android:layout_marginStart="8dp"
-        android:text="Klik &amp; cek riwayat"
+        android:text="@string/klik_amp_cek_riwayat"
         android:textColor="@color/green"
         android:textSize="13dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/gopay_view"
         app:layout_constraintTop_toBottomOf="@+id/money_text_view" />
 
     <ImageView
@@ -77,7 +76,7 @@
         android:background="@drawable/top_up_pay_explore_background"
         android:backgroundTint="@color/white"
         android:src="@drawable/pay"
-        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/gopay_view"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -104,21 +103,19 @@
         android:src="@drawable/explore"
         app:layout_constraintStart_toEndOf="@+id/top_up_imageView_table"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/bayar_text_view_table"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
-        android:text="Bayar"
+        android:text="@string/bayar"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="9dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/gopay_view"
         app:layout_constraintTop_toBottomOf="@+id/bayar_image_view" />
-
     <TextView
         android:id="@+id/top_up_text_view_table"
         android:layout_width="wrap_content"
@@ -126,14 +123,13 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:gravity="center"
-        android:text="Isi Saldo"
+        android:text="@string/isi_saldo"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="9dp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/bayar_text_view_table"
         app:layout_constraintTop_toBottomOf="@+id/top_up_imageView_table" />
-
     <TextView
         android:id="@+id/explore_text_view_table"
         android:layout_width="wrap_content"
@@ -141,13 +137,11 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
         android:gravity="center"
-        android:text="Eksplor"
+        android:text="@string/eksplor"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="9dp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/top_up_text_view_table"
         app:layout_constraintTop_toBottomOf="@+id/explore_image_view_table" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
